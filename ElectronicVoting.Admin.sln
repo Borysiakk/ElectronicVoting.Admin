@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85704438-F5F6-4C9E-8A18-6FCB1ED07E46}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicVoting.Admin.Application", "ElectronicVoting.Admin.Application\ElectronicVoting.Admin.Application.csproj", "{FCF551A6-93A9-4AD5-BC18-4EEE4DCC3D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicVoting.Admin.Domain", "ElectronicVoting.Admin.Domain\ElectronicVoting.Admin.Domain.csproj", "{6648CA3B-DCAC-4BDC-B0AA-CC1768F4BD43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicVoting.Admin.Infrastructure", "ElectronicVoting.Admin.Infrastructure\ElectronicVoting.Admin.Infrastructure.csproj", "{57046E37-10F8-4594-B052-4C91B037DD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicVoting.Admin.API", "ElectronicVoting.Admin.API\ElectronicVoting.Admin.API.csproj", "{95552A01-DD5B-42FC-B393-0C92CD7773E2}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A00D8CA5-F95A-4E67-989E-5E6611A240EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicVoting.Test", "ElectronicVoting.Test\ElectronicVoting.Test.csproj", "{D0BA37AE-78A8-44F3-98BB-9BFFD76FF28C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF551A6-93A9-4AD5-BC18-4EEE4DCC3D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF551A6-93A9-4AD5-BC18-4EEE4DCC3D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF551A6-93A9-4AD5-BC18-4EEE4DCC3D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF551A6-93A9-4AD5-BC18-4EEE4DCC3D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6648CA3B-DCAC-4BDC-B0AA-CC1768F4BD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6648CA3B-DCAC-4BDC-B0AA-CC1768F4BD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6648CA3B-DCAC-4BDC-B0AA-CC1768F4BD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6648CA3B-DCAC-4BDC-B0AA-CC1768F4BD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57046E37-10F8-4594-B052-4C91B037DD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57046E37-10F8-4594-B052-4C91B037DD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57046E37-10F8-4594-B052-4C91B037DD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57046E37-10F8-4594-B052-4C91B037DD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95552A01-DD5B-42FC-B393-0C92CD7773E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95552A01-DD5B-42FC-B393-0C92CD7773E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95552A01-DD5B-42FC-B393-0C92CD7773E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95552A01-DD5B-42FC-B393-0C92CD7773E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00D8CA5-F95A-4E67-989E-5E6611A240EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00D8CA5-F95A-4E67-989E-5E6611A240EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00D8CA5-F95A-4E67-989E-5E6611A240EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00D8CA5-F95A-4E67-989E-5E6611A240EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BA37AE-78A8-44F3-98BB-9BFFD76FF28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BA37AE-78A8-44F3-98BB-9BFFD76FF28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BA37AE-78A8-44F3-98BB-9BFFD76FF28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BA37AE-78A8-44F3-98BB-9BFFD76FF28C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

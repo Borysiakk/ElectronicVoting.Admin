@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "electronicvoting.admin.api",
+      "composeLaunchUrl": "https://localhost:55266/swagger/index.html",
+      "serviceActions": {
+        "electronicvoting.admin.api": "StartDebugging",
+        "Election-Database": "StartWithoutDebugging"
+      }
+    }
+  }
+}

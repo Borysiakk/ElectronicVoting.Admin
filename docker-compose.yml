@@ -1,0 +1,21 @@
+services:
+  electronicvoting.admin.api:
+    image: electronicvoting.admin.api
+    build:
+      context: .
+      dockerfile: ElectronicVoting.Admin.API/Dockerfile
+    ports:
+      - "55161:80"  # HTTP
+      - "55266:443" # HTTPS
+    environment:
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DATABASE_CONNECTION_STRING=Server=Election-Database;User Id=sa;Password=LitwoOjczyznoMoja1234@;TrustServerCertificate=true
+  Election-Database:
+    container_name: ElectronicVote.Admin.Database
+    ports:
+      - "8092:1433"
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    environment:
+      SA_PASSWORD: "LitwoOjczyznoMoja1234@"
+      ACCEPT_EULA: "Y"
